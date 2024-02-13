@@ -4,8 +4,53 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Practice Task 1</title>
+    <style>
+        form>img{
+            height: 300px;
+            padding: 5px;
+        }
+        form>a{
+            text-decoration: none;
+            color:brown;
+            font-size: 20px;
+        }
+        form>input{
+            width: 200px;
+            height: 20px;
+        }
+        form>label{
+            font-size: 20px;
+        }
+        form>button{
+            width: 100px;
+            height: 25px;
+        }
+    </style>
 </head>
 <body>
-    
+    <form action="">
+        <label for="top_input">Search Your Image Here</label>
+        <input type="text" name="" id="top_input">
+        <button type="submit">Search</button>
+        <br>
+        <img src="img/panda.png" alt="Kunfu Tiger">
+        <br>
+        <a href="http://www.google.com">Click Here For More</a>
+        <hr>
+        <h3>Feedback Form</h3>
+        <label for="name">Name</label>
+        <br>
+        <input type="text" name="" id="name">
+        <br>
+        <label for="name">Date</label>
+        <br>
+        <input type="date" name="" id="name">
+        <br>
+        <label for="name">Comment</label>
+        <br>
+        <textarea name="" id="comment" cols="25" rows="4"></textarea>
+        <br>
+        <button type="submit">Submit</button>
+    </form>
 </body>
 </html>
