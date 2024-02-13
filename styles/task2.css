@@ -1,0 +1,30 @@
+form>fieldset>legend{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;
+}
+form label{
+    font-size: 20px;
+}
+
+form input{
+    width: 250px;
+    height: 20px;
+    margin: 5px;
+}
+form select{
+    width: 250px;
+    height: 25px;
+    margin: 5px;
+}
+form textarea{
+    margin: 5px;
+}
+form button{
+    width: 100px;
+    height: 25px;
+    border-radius: 5px;
+    border: none;
+    background-color:brown;
+    font-size: 15px;
+    color: azure;
+}
